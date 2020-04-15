@@ -1,0 +1,14 @@
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\bin\Debug\netstandard2.0\App_TelaClima.deps.json
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\bin\Debug\netstandard2.0\App_TelaClima.dll
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\bin\Debug\netstandard2.0\ref\App_TelaClima.dll
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\bin\Debug\netstandard2.0\App_TelaClima.pdb
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\obj\Debug\netstandard2.0\App_TelaClima.csprojAssemblyReference.cache
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\obj\Debug\netstandard2.0\App_TelaClima.AssemblyInfoInputs.cache
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\obj\Debug\netstandard2.0\App_TelaClima.AssemblyInfo.cs
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\obj\Debug\netstandard2.0\App_TelaClima.dll
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\obj\Debug\netstandard2.0\ref\App_TelaClima.dll
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\obj\Debug\netstandard2.0\App_TelaClima.pdb
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\obj\Debug\netstandard2.0\App_TelaClima.csproj.CoreCompileInputs.cache
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima\obj\Debug\netstandard2.0\XamlC.stamp

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App_TelaClima.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <!-- Background -->
+        <Image Source="background.jpg" Grid.Row="0" Grid.RowSpan="4" Grid.Column="0" Grid.ColumnSpan="3"/>
+        <!-- Top -->
+        <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0">
+            <Image Source="nuvemsimples.png" HeightRequest="64" WidthRequest="64" />
+            <Label Text="{Binding Nuvem}" x:Name="Nuvem" TextColor="White" VerticalOptions="Center" FontSize="24"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="1">
+            <Image Source="vento.png" HeightRequest="64" WidthRequest="64"/>
+            <Label Text="{Binding VelocidadeV}" x:Name="VelocidadeV" TextColor="White" VerticalOptions="Center" FontSize="24"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="2" HorizontalOptions="End">
+            <Image Source="gota.png" HeightRequest="64" WidthRequest="64"/>
+            <Label Text="{Binding Umidade}" x:Name="Umidade" TextColor="White" VerticalOptions="Center" FontSize="24"/>
+        </StackLayout>
+        <!-- Mid -->
+        <StackLayout Orientation="Horizontal" Grid.Column="1" Grid.Row="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label Text="{Binding Temp}" x:Name="Temp" TextColor="White" VerticalOptions="Center" FontSize="64"/>
+            <StackLayout>
+                <Label Text="°C" TextColor="White" FontSize="18"/>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="" />
+                    <Label Text="{Binding TempMax}" x:Name="TempMax" TextColor="White" VerticalOptions="Center" FontSize="12"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="" />
+                    <Label Text="{Binding TempMin}" x:Name="TempMin" TextColor="White" VerticalOptions="Center" FontSize="12"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+        <!-- Botton -->
+        <StackLayout Grid.Column="1" Grid.Row="2" HorizontalOptions="Center">
+            <Label Text="{Binding Endereco}" x:Name="Endereco" TextColor="White" VerticalOptions="Center" FontSize="20"/>
+            <Label Text="{Binding Clima}" x:Name="Clima" TextColor="White" VerticalOptions="Center" FontSize="18" HorizontalOptions="Center"/>
+        </StackLayout>
+        <!-- IMG Nuvem -->
+    </Grid>
+</ContentPage>

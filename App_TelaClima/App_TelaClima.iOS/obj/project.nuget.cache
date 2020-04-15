@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "rYOQ+SfED3ywO0vXgqyIT2ezgZVCY1Gw17i40rOw9qqzuh52LoTd/DimpIxh25mX6WdzJDTNhB51X0fwvnlQxQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rhuan\\source\\repos\\App_TelaClima\\App_TelaClima\\App_TelaClima.iOS\\App_TelaClima.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rhuan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\rhuan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

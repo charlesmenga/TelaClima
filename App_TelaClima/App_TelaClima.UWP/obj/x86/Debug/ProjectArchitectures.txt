@@ -1,0 +1,1 @@
+C:\Users\rhuan\source\repos\App_TelaClima\App_TelaClima\App_TelaClima.UWP\App_TelaClima.UWP.csproj;x86
